@@ -36,7 +36,7 @@ func main() {
 		case <-ticker.C:
 			snapshot, err := collector.CollectSnapshots()
 			if err != nil {
-				fmt.Printf("Fehler beim Sammeln der Metriken: %v", err)
+				fmt.Printf("error gathering data: %v", err)
 				continue
 			}
 			fmt.Println(strings.Repeat("-", 20))
