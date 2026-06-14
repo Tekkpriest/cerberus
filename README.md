@@ -1,9 +1,9 @@
 # Cerberus - Monitoring System
 
-Ein leichtgewichtiges, selbstgehostetes Monitoring- und Log-Analysesystem, entwickelt als kollaboratives Drei-Personen-Projekt. 
-Die Architektur trennt die Datenerfassung, die Datenverarbeitung und die Visualisierung strikt voneinander (Separation of Concerns).
+A lightweight, self-hosted monitoring and log analysis system developed as a collaborative three-person project.
+The architecture strictly separates data collection, data processing and visualization to adhere to the Separation of Concerns Design Principle.
 
-Das System besteht aus vier Kernkomponenten:
+Our system is composed of 4 main components:
 
 1. **Agent (`Go`)**: 
 2. **Central API (`Go`)**:
@@ -12,11 +12,11 @@ Das System besteht aus vier Kernkomponenten:
 
 ---
 
-## Tech-Stack & Zuständigkeiten
+## Tech-Stack & Responsibilities
 
-| Komponente | Sprache / Framework | Haupt-Zuständiger | Fokus |
+| Component | Language / Framework | Person in Charge | Focus |
 | :--- | :--- | :--- | :--- |
-| **Agent** | Go (Golang) | [@Tekkpriest](https://github.com/Tekkpriest) | Platzhalter |
-| **Central API** | Go (Golang) | [@Tekkpriest](https://github.com/Tekkpriest) | Platzhalter |
-| **Log Analyzer** | Python / FastAPI | [@FionaEff](https://github.com/FionaEff) | Platzhalter |
-| **Dashboard** | TS / Next.js / React | [@EchoFen](https://github.com/EchoFen) | Platzhalter |
+| **Agent** | Go (Golang) | [@Tekkpriest](https://github.com/Tekkpriest) | Placeholder |
+| **Central API** | Go (Golang) | [@Tekkpriest](https://github.com/Tekkpriest) | Placeholder |
+| **Log Analyzer** | Python / FastAPI | [@FionaEff](https://github.com/FionaEff) | Placeholder |
+| **Dashboard** | TS / Next.js / React | [@EchoFen](https://github.com/EchoFen) | Placeholder |
